@@ -30,6 +30,8 @@ Users can add items to the cart by clicking the "Add to Cart" button associated 
 The portal manages the cart, calculates the total price, and allows users to remove items from the cart.
 ### Checkout Functionality:
  Although not fully implemented, the checkout button provides a placeholder for future checkout functionality.
+ ### Feedback and Review Form
+ Although not fully functioning, the project allow users to input their feedback comments and rate the services offered.
 ### JSON Integration:
  The project successfully integrates with a JSON database (db.json) to fetch and display service data dynamically.
 ### Public API Used: 
