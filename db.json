@@ -1,0 +1,43 @@
+{
+  "services": [
+  {  "id" : 1,
+    "name": "Wash & Dry",
+    "items": "Clothes",
+    "price": 500,
+    "imageUrl": "images/large basket.png"
+      },
+    
+  {  "id": 2,
+    "name": "Dry Cleaning",
+    "items":"suit",
+     "price": 500,
+     "imageUrl": "images/suit.jpeg"
+      },
+      
+  {  "id": 3,
+    "name": "Sofa Set Cleaning",
+    "items": "7 seater",
+    "price": 1750,
+    "imageUrl": "images/seven seater.jpeg"
+  },  
+  { "id": 4,
+    "name":"Duvet Cleaning",
+    "items": "6*6 Duvet",
+    "price": 500,
+    "imageUrl": "images/large duvet.jpeg"
+        },
+      
+  {   "id": 5,
+    "name":"Carpet Cleaning",
+    "items":"large",
+    "price": 800,
+    "imageUrl": "images/large carpet.jpeg"
+        }
+  ],
+  "reviews":[
+    
+  ]
+}
+
+
+  

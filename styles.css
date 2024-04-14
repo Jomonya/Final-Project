@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(82, 187, 187);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  background-color: #030120;
+  color: #fff;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin-right: 80px;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(248, 247, 246);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+  color: rgb(230, 172, 15);
+}
+
+#intro {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.service-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  /* Flexbox styles for arranging images */
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-card img {
+  width: 200px;
+  height: 200px;
+  margin-right: 5px;
+}
+
+.service-container {
+  display:flex;
+  flex-wrap: wrap;
+  display:inline-table;
+}
+
+.service-item {
+  flex: 1 1 30%;
+  margin: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+#cart {
+  background-color: #ffcc00; /* Yellow background for cart */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#cart-items li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#checkout-btn {
+  background-color: #030120;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#checkout-btn:hover {
+  background-color: #dd0b0b;
+}
+
+#feedback-form {
+  display: grid;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #030120;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  main {
+    padding: 0 10px;
+  }
+
+  li {
+    margin-right: 10px; /* Further reduced margin for smaller screens */
+  }
+
+  .service-item {
+    flex-basis: 45%; /* Adjusted width for smaller screens */
+  }
+
+  #cart {
+    padding: 20px;
+  }
+}
